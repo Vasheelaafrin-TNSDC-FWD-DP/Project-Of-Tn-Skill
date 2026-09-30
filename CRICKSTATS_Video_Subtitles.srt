@@ -1,0 +1,179 @@
+1
+00:00:00,000 --> 00:00:01,320
+Hello everyone.
+
+2
+00:00:01,320 --> 00:00:03,396
+We are Team CRICKSTATS.
+
+3
+00:00:03,396 --> 00:00:05,283
+Our team lead is A.G.
+
+4
+00:00:05,283 --> 00:00:09,245
+Vasheela Afrin, and the team members are R.
+
+5
+00:00:09,245 --> 00:00:10,754
+Sivasakthi and S.
+
+6
+00:00:10,754 --> 00:00:11,226
+Subha.
+
+7
+00:00:11,226 --> 00:00:15,000
+This is our project demonstration video.
+
+8
+00:00:15,000 --> 00:00:21,995
+The name of our project is the Cricket Player Performance Tracking Application, called CRICKSTATS.
+
+9
+00:00:21,995 --> 00:00:30,000
+It is a Salesforce Lightning application built with custom objects, relationships, roll-up summaries and flows.
+
+10
+00:00:30,000 --> 00:00:37,870
+The purpose of this project is to capture match by match performance of cricket players in one place.
+
+11
+00:00:37,870 --> 00:00:47,000
+It replaces scattered spreadsheets and manual calculations, and it helps coaches and managers make better decisions.
+
+12
+00:00:47,000 --> 00:00:48,802
+Now the use and benefits.
+
+13
+00:00:48,802 --> 00:01:03,000
+The application keeps data accurate through relationships, calculates career totals automatically, reduces manual work with flows, gives insightful reports, and is easy to use and to scale.
+
+14
+00:01:03,000 --> 00:01:06,483
+Now let us see how the project works.
+
+15
+00:01:06,483 --> 00:01:10,741
+Step one is the Salesforce Developer account.
+
+16
+00:01:10,741 --> 00:01:21,000
+We signed up for a free Developer Edition org, verified our email, set a password, and logged in to Setup.
+
+17
+00:01:21,000 --> 00:01:23,209
+Step two is object creation.
+
+18
+00:01:23,209 --> 00:01:28,199
+In Setup, we opened Object Manager and created custom objects.
+
+19
+00:01:28,199 --> 00:01:30,490
+Player stores each cricketer.
+
+20
+00:01:30,490 --> 00:01:35,154
+Match Performance stores one player's result in one match.
+
+21
+00:01:35,154 --> 00:01:39,000
+Team is an optional object that groups players.
+
+22
+00:01:39,000 --> 00:01:42,636
+Step three is tabs and the Lightning App.
+
+23
+00:01:42,636 --> 00:01:58,000
+We created a custom tab for each object, then in App Manager we created the CRICKSTATS Lightning App, added the tabs to its navigation, and assigned it to user profiles.
+
+24
+00:01:58,000 --> 00:02:00,953
+Step four is fields and relationships.
+
+25
+00:02:00,953 --> 00:02:04,226
+Player has role, age and a lookup to Team.
+
+26
+00:02:04,226 --> 00:02:17,000
+Match Performance has match date, opponent, runs scored, balls faced, wickets and overs bowled, and it is connected to Player with a Master-Detail relationship.
+
+27
+00:02:17,000 --> 00:02:19,726
+Step five is the roll-up summary.
+
+28
+00:02:19,726 --> 00:02:25,520
+Because of the Master-Detail relationship, Player has roll-up fields.
+
+29
+00:02:25,520 --> 00:02:28,587
+Total Runs is the sum of runs scored.
+
+30
+00:02:28,587 --> 00:02:31,569
+Total Wickets is the sum of wickets.
+
+31
+00:02:31,569 --> 00:02:35,999
+Matches Played counts the match performance records.
+
+32
+00:02:36,000 --> 00:02:37,596
+Step six is flows.
+
+33
+00:02:37,596 --> 00:02:42,760
+We created a Record-Triggered Flow on Match Performance.
+
+34
+00:02:42,760 --> 00:02:52,995
+When a new record is created, the flow checks the values and performs an action such as an update or an email.
+
+35
+00:02:52,995 --> 00:02:56,000
+Then we tested and activated it.
+
+36
+00:02:56,000 --> 00:02:57,462
+Now the live demo.
+
+37
+00:02:57,462 --> 00:03:05,118
+We open the CRICKSTATS app, add a new player, then add match performances for that player.
+
+38
+00:03:05,118 --> 00:03:12,000
+Watch how the total runs, total wickets and matches played update automatically.
+
+39
+00:03:12,000 --> 00:03:13,894
+This is the final output.
+
+40
+00:03:13,894 --> 00:03:27,000
+We have a working CRICKSTATS Lightning App with players, match performances and teams, automatic career totals, an automated flow, and reports to analyse performance.
+
+41
+00:03:27,000 --> 00:03:28,872
+Thank you for watching.
+
+42
+00:03:28,872 --> 00:03:35,680
+This was CRICKSTATS, the Cricket Player Performance Tracking Application, by A.G.
+
+43
+00:03:35,680 --> 00:03:37,127
+Vasheela Afrin, R.
+
+44
+00:03:37,127 --> 00:03:38,489
+Sivasakthi and S.
+
+45
+00:03:38,489 --> 00:03:39,000
+Subha.

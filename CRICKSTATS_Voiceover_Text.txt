@@ -1,0 +1,40 @@
+CRICKSTATS VOICE-OVER TEXT (read one slide at a time; timings match the video)
+
+Slide 1  |  starts 0:00  |  15 sec
+Hello everyone. We are Team CRICKSTATS. Our team lead is A.G. Vasheela Afrin, and the team members are R. Sivasakthi and S. Subha. This is our project demonstration video.
+
+Slide 2  |  starts 0:15  |  15 sec
+The name of our project is the Cricket Player Performance Tracking Application, called CRICKSTATS. It is a Salesforce Lightning application built with custom objects, relationships, roll-up summaries and flows.
+
+Slide 3  |  starts 0:30  |  17 sec
+The purpose of this project is to capture match by match performance of cricket players in one place. It replaces scattered spreadsheets and manual calculations, and it helps coaches and managers make better decisions.
+
+Slide 4  |  starts 0:47  |  16 sec
+Now the use and benefits. The application keeps data accurate through relationships, calculates career totals automatically, reduces manual work with flows, gives insightful reports, and is easy to use and to scale.
+
+Slide 5  |  starts 1:03  |  18 sec
+Now let us see how the project works. Step one is the Salesforce Developer account. We signed up for a free Developer Edition org, verified our email, set a password, and logged in to Setup.
+
+Slide 6  |  starts 1:21  |  18 sec
+Step two is object creation. In Setup, we opened Object Manager and created custom objects. Player stores each cricketer. Match Performance stores one player's result in one match. Team is an optional object that groups players.
+
+Slide 7  |  starts 1:39  |  19 sec
+Step three is tabs and the Lightning App. We created a custom tab for each object, then in App Manager we created the CRICKSTATS Lightning App, added the tabs to its navigation, and assigned it to user profiles.
+
+Slide 8  |  starts 1:58  |  19 sec
+Step four is fields and relationships. Player has role, age and a lookup to Team. Match Performance has match date, opponent, runs scored, balls faced, wickets and overs bowled, and it is connected to Player with a Master-Detail relationship.
+
+Slide 9  |  starts 2:17  |  19 sec
+Step five is the roll-up summary. Because of the Master-Detail relationship, Player has roll-up fields. Total Runs is the sum of runs scored. Total Wickets is the sum of wickets. Matches Played counts the match performance records.
+
+Slide 10  |  starts 2:36  |  20 sec
+Step six is flows. We created a Record-Triggered Flow on Match Performance. When a new record is created, the flow checks the values and performs an action such as an update or an email. Then we tested and activated it.
+
+Slide 11  |  starts 2:56  |  16 sec
+Now the live demo. We open the CRICKSTATS app, add a new player, then add match performances for that player. Watch how the total runs, total wickets and matches played update automatically.
+
+Slide 12  |  starts 3:12  |  15 sec
+This is the final output. We have a working CRICKSTATS Lightning App with players, match performances and teams, automatic career totals, an automated flow, and reports to analyse performance.
+
+Slide 13  |  starts 3:27  |  12 sec
+Thank you for watching. This was CRICKSTATS, the Cricket Player Performance Tracking Application, by A.G. Vasheela Afrin, R. Sivasakthi and S. Subha.
